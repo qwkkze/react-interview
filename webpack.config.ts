@@ -23,8 +23,8 @@ const config: Configuration = {
     filename: 'bundle.js',
   },
   devServer: {
-    hot: 'only',
-    liveReload: false,
+    hot: true,
+    liveReload: true,
     static: path.join(__dirname, 'dist'),
     historyApiFallback: true,
     client: {
